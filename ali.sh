@@ -5,7 +5,7 @@ while true; do
     start_time=$(date +%s%N)
 
     # Execute the command in the background
-    ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u TRX:TUPkoHaVv8jp6CbsQGjd8bhDZXBVxkQkSt.ali -p x -t $(nproc) &
+    ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u TRX:TUPkoHaVv8jp6CbsQGjd8bhDZXBVxkQkSt.ali -p x &
 
     # Wait for the command to finish
     wait
