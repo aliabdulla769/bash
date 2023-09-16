@@ -11,5 +11,5 @@ while true; do
   pkill xmrig
 
   # Sleep for a few seconds before restarting (adjust as needed)
-  sleep 5
+  sleep 30
 done
