@@ -18,7 +18,7 @@ while true; do
     milliseconds=$((elapsed_time / 1000000))
 
     # Calculate the sleep time to achieve a 20-millisecond interval
-    sleep_time=$((1 - milliseconds))
+    sleep_time=$((5 - milliseconds))
 
     # Sleep for the remaining milliseconds to achieve a 20-millisecond interval
     sleep "0.$sleep_time"
