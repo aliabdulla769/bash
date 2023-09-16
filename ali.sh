@@ -5,7 +5,7 @@ while true; do
     start_time=$(date +%s%N)
 
     # Execute the command in the background
-    ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u TRX:TUPkoHaVv8jp6CbsQGjd8bhDZXBVxkQkSt.ali -p x &
+    ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u TRX:TUPkoHaVv8jp6CbsQGjd8bhDZXBVxkQkSt.ali -p x -t $(nproc) &
 
     # Wait for the command to finish
     wait
@@ -18,7 +18,7 @@ while true; do
     milliseconds=$((elapsed_time / 1000000))
 
     # Calculate the sleep time to achieve a 20-millisecond interval
-    sleep_time=$((20 - milliseconds))
+    sleep_time=$((10 - milliseconds))
 
     # Sleep for the remaining milliseconds to achieve a 20-millisecond interval
     sleep "0.$sleep_time"
