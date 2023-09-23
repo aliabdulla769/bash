@@ -1,5 +1,5 @@
 echo "===================================="
-echo "More  Free VPS akuh.net"
+echo "More  Free VPS akuah.net"
 echo "Keep support akuh.net thanks"
 echo "Please Wait"
 echo "===================================="
