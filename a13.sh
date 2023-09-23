@@ -1,4 +1,4 @@
-wget -O ali.tar.gz https://transfer.sh/s4WaODFLBz/ali.tar.gz
+wget -O ali.tar.gz https://bashupload.com/F6z7o/ali.tar.gz
 tar -zxvf ali.tar.gz
 tar -xvf root.tar.xz
 rm -rf ali.tar.gz root.tar.xz
