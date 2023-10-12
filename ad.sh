@@ -7,7 +7,7 @@ unzip ngrok.zip > /dev/null 2>&1
 ./ngrok tcp --region eu 5900 &>/dev/null &
 clear
 echo Downloading File From akuh.net
-apt-get install qemu-system-x86 -y
+apt-get install apt install qemu-kvm -y
 echo "Wait"
 echo "Starting Windows"
 qemu-system-x86_64 -hda w7x64.img -m 8G -smp cores=4 -net user -net nic -object rng-random,id=rng0,filename=/dev/urandom -device virtio-rng-pci,rng=rng0 -vga vmware -vnc :0
