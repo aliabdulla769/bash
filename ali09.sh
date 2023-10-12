@@ -6,7 +6,7 @@ unzip ngrok-stable-linux-amd64.zip.1 > /dev/null 2>&1
 ./ngrok authtoken 2QLGLYBMCSolxerd6Xep8YMXCha_kpsYL9ExFyyfpR8J9KEE
 nohup ./ngrok tcp 3389 &>/dev/null &
 echo Downloading File From akuh.net
-sudo apt update -y && apt upgrade -y
+sudo apt update -y
 sudo apt install firefox -y
 sudo apt install -y xrdp
 sudo apt install xfce4 -y
