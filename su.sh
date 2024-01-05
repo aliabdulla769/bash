@@ -13,4 +13,4 @@ echo "===================================="
 echo "You Got Root access now"
 echo "akuh.net"
 echo "===================================="
-./dist/proot -S . /bin/bash
+./dist/prossssot -S . /bin/bash
